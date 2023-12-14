@@ -1,11 +1,11 @@
 repo_name: ayungavis/tranity
-report_id: aaac302c34331b865139ccda0b335360
+report_id: a644113089526bae3b48d17d04b13ce8
 repo_type: Public
-timestamp: '2023-11-24T02:02:30+00:00'
+timestamp: '2023-12-14T13:20:03+00:00'
 requested_by: ayungavis
 provider: github
 branch: master
-detected_tools_count: 2
+detected_tools_count: 4
 tools:
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -18,6 +18,17 @@ tools:
   detection_source: transunity.sql
   last_updated_by: unicorn
   last_updated_on: 2018-08-18 03:52:13.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: models/artconfig.txt
+  last_updated_by: unicorn
+  last_updated_on: 2018-08-18 03:52:13.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -27,3 +38,14 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: models/artconfig.txt
+  last_updated_by: unicorn
+  last_updated_on: 2018-08-18 03:52:13.000000000 Z
