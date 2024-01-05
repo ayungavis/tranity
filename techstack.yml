@@ -1,7 +1,8 @@
 repo_name: ayungavis/tranity
-report_id: a644113089526bae3b48d17d04b13ce8
+report_id: aaac302c34331b865139ccda0b335360
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T13:20:03+00:00'
+timestamp: '2024-01-05T08:33:20+00:00'
 requested_by: ayungavis
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/ayungavis/tranity/blob/master/transunity.sql
   detection_source: transunity.sql
   last_updated_by: unicorn
   last_updated_on: 2018-08-18 03:52:13.000000000 Z
@@ -26,6 +28,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ayungavis/tranity/blob/master/models/artconfig.txt
   detection_source: models/artconfig.txt
   last_updated_by: unicorn
   last_updated_on: 2018-08-18 03:52:13.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ayungavis/tranity
   detection_source: Repo Metadata
 - name: LangChain
   description: Build AI apps with LLMs through composability
@@ -46,6 +50,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ayungavis/tranity/blob/master/models/artconfig.txt
   detection_source: models/artconfig.txt
   last_updated_by: unicorn
   last_updated_on: 2018-08-18 03:52:13.000000000 Z
